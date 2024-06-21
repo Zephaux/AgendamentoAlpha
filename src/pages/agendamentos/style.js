@@ -1,6 +1,7 @@
 import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
+<<<<<<< HEAD
   container:{
     flex: 1,
     backgroundColor: 'white',
@@ -44,6 +45,11 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   },
+=======
+  agendamento:{
+
+  },
+>>>>>>> 49bf670c1b16de1c6328f489d4041d4ec3a06283
 });
 
 export default styles

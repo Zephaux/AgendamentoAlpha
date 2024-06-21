@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import { Text, View, TextInput, TouchableOpacity } from "react-native";
 
@@ -48,6 +49,15 @@ export default function NovoAgendamento({ navigation }) {
             }}>
                 <Text>Save</Text>
             </TouchableOpacity>
+=======
+import React from "react";
+import { Text, View } from "react-native";
+
+export default function NovoAgendamento() {
+    return(
+        <View>
+            <Text>Page Novo Agendamento</Text>
+>>>>>>> 49bf670c1b16de1c6328f489d4041d4ec3a06283
         </View>
     )
 }

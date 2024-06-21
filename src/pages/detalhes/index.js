@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useState} from "react";
 import { Text, View, TouchableOpacity, TextInput} from "react-native";
 
@@ -50,6 +51,15 @@ function EditAgendamento(nome, servico, tell, id){
             }}>
                 <Text>Save</Text>
             </TouchableOpacity>
+=======
+import React from "react";
+import { Text, View } from "react-native";
+
+export default function Detalhes() {
+    return (
+        <View>
+            <Text>Page Detalhes</Text>
+>>>>>>> 49bf670c1b16de1c6328f489d4041d4ec3a06283
         </View>
     )
 }

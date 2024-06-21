@@ -7,6 +7,7 @@ import { SafeAreaView ,
 } from "react-native"
 
 
+<<<<<<< HEAD
 import { database } from "../../config/firebaseconfig"
 import { FontAwesome } from "@expo/vector-icons"
 import { query } from "firebase/firestore"
@@ -70,6 +71,19 @@ export default function Agendamentos({ navigation }) {
                 <Text style={styles.iconButton}>+</Text> 
 
             </TouchableOpacity>
+=======
+
+export default function Agendamentos() {
+    const [agendamentos, setAgendamentos] = useState([])
+
+    useEffect(()=>{
+
+    }, [])
+
+    return(
+        <View>
+            <Text>Page Agendamentos</Text>
+>>>>>>> 49bf670c1b16de1c6328f489d4041d4ec3a06283
         </View>
     );
 }

@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 import "firebase/firestore"
 import { collection, addDoc } from "firebase/firestore"; 
 import "firebase/storage"
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
+=======
+import firebase from "firebase"
+import "firebase/storage"
+
+>>>>>>> 49bf670c1b16de1c6328f489d4041d4ec3a06283
 
 const firebaseConfig = {
     apiKey: "AIzaSyCD3bP3yYnP612q3IKKHXT0kXsm9aEhXDY",
@@ -14,7 +20,13 @@ const firebaseConfig = {
   };
 
 // Initialize Firebase
+<<<<<<< HEAD
 const app = initializeApp(firebaseConfig);
 const database = getFirestore(app);
 
 export { database }
+=======
+firebase.initializeApp(firebaseConfig);
+const database = firebase.firestore()
+export default database
+>>>>>>> 49bf670c1b16de1c6328f489d4041d4ec3a06283
